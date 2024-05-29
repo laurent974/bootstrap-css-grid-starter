@@ -4,11 +4,28 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "gulp",
+    "watch": "gulp watch",
+    "stylelint": "gulp stylelint"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.3.3"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "@ronilaukkarinen/gulp-stylelint": "^14.1.1",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-dart-sass": "^1.0.2",
+    "gulp-replace": "^1.1.3",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-strip-comments": "^2.5.2",
+    "postcss": "^8.4.25",
+    "postcss-scss": "^4.0.4",
+    "prettier": "^3.0.0",
+    "stylelint": "^15.10.1",
+    "stylelint-order": "^6.0.3",
+    "stylelint-prettier": "^4.0.0"
   }
 }
